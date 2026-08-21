@@ -33,7 +33,7 @@ The specifications the port was generated from are in
 ⚡ 11,846 → **4,158** nanoseconds per answer, four services<br>
 🎯 7 of 7 comparison runs identical → **7 of 7**<br>
 🔁 88 different answers to 120 identical requests → **1**<br>
-🧪 0 tests over this code → **44**
+🧪 0 tests over this code → **50**
 
 Full method and the numbers that did *not* make this list:
 [`bench/REPORT.md`](https://github.com/TylerJewell/akka-specify-harness/blob/main/coroot-port/bench/REPORT.md).
@@ -42,11 +42,11 @@ Full method and the numbers that did *not* make this list:
 
 ## What it took to build
 
-⏱️ **0.9 hours** from the first command to the published repository, **0.9** of them active<br>
-💬 **264** exchanges with the model<br>
-✍️ **218,707** tokens written by the model, **48,360,182** counting everything sent and re-sent<br>
+⏱️ **1.0 hours** from the first command to the published repository, **1.0** of them active<br>
+💬 **304** exchanges with the model<br>
+✍️ **238,663** tokens written by the model, **61,152,078** counting everything sent and re-sent<br>
 🙋 **0** questions to a human<br>
-🧪 **44** tests
+🧪 **50** tests
 
 ```bash
 python toolkit/tokens.py --port coroot    # turns, tokens, elapsed and active time
